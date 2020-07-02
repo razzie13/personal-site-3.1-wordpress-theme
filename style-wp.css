@@ -1,3 +1,6 @@
+.entry-meta {
+    padding-bottom: 24px;
+}
 nav  {
     color: #FFFFFF;
     line-height: 50px;
@@ -43,11 +46,16 @@ a.screen-reader-shortcut  {
 	max-width: 960px;
     margin: auto;
 }
+/*
 @media screen and (max-width: 800px)  {
 	width: 100%;
 }
 @media screen and (min-width: 801px)  {
 	width: 960px;
+}
+*/
+.sectiondata-datadiv img  {
+    border-radius: 10px;
 }
 
 #h1sectionheader  {
@@ -465,4 +473,4 @@ input[type="submit"].search-submit:hover {
 }
 
     input:focus, textarea:focus, select:focus{
-        outline: none
+        outline: none}

@@ -8,6 +8,10 @@
  * @package travelblog
  */
 
+ // ADVANCED CUSTOM FIELDS
+ $project_image = get_field('project_image');
+ $project_link	= get_field('project_link');
+ $github_repository_link	= get_field('github_repository_link');
 ?>
 
 <!-- content.php -->
@@ -20,7 +24,8 @@
 		if ( is_singular() ) :
 			the_title( '<h2 class="entry-title">', '</h2>' );
 		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>'  );
+
 		endif;
 
 		if ( 'post' === get_post_type() ) :
@@ -36,6 +41,8 @@
 
 	<?php travelblog_post_thumbnail(); ?>
 
+	<img style="max-width: 100%;" src="<?php echo $project_image; ?>" alt="Project Image">
+	
 	<div class="entry-content">
 		<?php
 		the_content(
@@ -60,9 +67,13 @@
 			)
 		);
 		?>
+		<p>Project Link: <a href=“<?php echo $project_link; ?>“><?php echo $project_link; ?></a></p>
+
+		<p>GitHub Repository Link for this Project: <a href=“<?php echo $github_repository_link; ?>“><?php echo $github_repository_link; ?></a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+		
 		<?php travelblog_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
@@ -71,3 +82,4 @@
 	<!-- FA ICON -- inside content.php -->
 	<div class="sectiondata-circle"><i class="fas fa-code"></i></div></div>
 	<!-- /FA ICON -->
+<!-- /content.php -->

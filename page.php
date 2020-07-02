@@ -12,8 +12,11 @@
  * @package travelblog
  */
 
+
+
 get_header();
 ?>
+	<!-- page.php -->
 
 	<main id="primary" class="site-main">
 		
