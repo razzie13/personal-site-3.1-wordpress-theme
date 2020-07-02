@@ -1,0 +1,468 @@
+nav  {
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 800px)  {
+#nav-links {
+	display: none;
+}
+a.screen-reader-shortcut  {
+	display: none;
+}
+}
+@media screen and (min-width: 801px)  {
+#nav-links {
+    float: right;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-right: 139px;
+    letter-spacing: 1px;
+}
+}
+
+#nav-links a  {
+    color: white;
+    text-decoration: none;
+}
+
+#nav-links a:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+#bannergraphic {
+    background: url(https://gregrasmussen.com/images/bg201-edit.jpg);
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    padding-top: 0;
+    background-position: center;
+    margin-top: -5px;
+	max-width: 960px;
+    margin: auto;
+}
+@media screen and (max-width: 800px)  {
+	width: 100%;
+}
+@media screen and (min-width: 801px)  {
+	width: 960px;
+}
+
+#h1sectionheader  {
+    color: black;
+}
+
+.h1sectionheader  {
+    color: black;
+}
+
+.entry-header h2  {
+    color: black;
+}
+
+.entry-header a  {
+    text-decoration: none;
+}
+
+.entry-header a:hover  {
+    text-decoration: underline;
+}
+
+.entry-header a:visited  {
+    color: black;
+}
+
+time.updated  {
+    display: none;
+}
+
+.wp-block-image {
+    overflow: hidden;
+    margin: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+figcaption  {
+    font-size: 12px;
+    background-color: #B6B5B5;
+    padding: 10px;
+    margin-top: -6px;
+    border-radius: 0 0 5px 5px;
+}
+
+figure img  {
+    width: 100%;
+}
+
+.highlight  {
+    background-color: yellow;
+}
+
+.entry-footer {
+    margin: 30px 0 30px 0;
+
+}
+
+.entry-footer a  {
+    text-decoration: underline;
+    color: black;
+}
+
+.entry-footer a:hover  {
+    text-decoration: none;
+    color: black;
+}
+
+.cat-links a  {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2e86de;
+}
+
+.cat-links a:visited  {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2e86de;
+}
+
+.tags-links {
+    font-size: 14px;
+}
+
+span.author.vcard {
+    color: #2e86de;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer.entry-footer  {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #B6B5B5;
+    border-radius: 5px;
+    padding: 10px;
+}
+main#primary {
+    background-color: #ff6b6b;
+	margin-bottom: -18px;
+}
+
+div#sectionheader {
+    background-color: #ff6b6b;
+}
+
+#h1sectionheader::after {
+    content: url("https://gregrasmussen.com/images/icon-arrow-down-right-white.svg");
+    float: right;
+    padding-top: 6px;
+    padding-right: 12px;
+  }
+
+.h1sectionheader::after {
+    content: url("https://gregrasmussen.com/images/icon-arrow-down-right-white.svg");
+    float: right;
+    padding-top: 6px;
+    padding-right: 12px;
+  }
+
+h1.entry-title  {
+	color: black;
+	padding-top: 16px;
+}
+
+p#sectiondescriptionparagraph a  {
+    color: black;
+    text-decoration: none;
+}
+
+p#sectiondescriptionparagraph a:hover  {
+    color: black;
+    text-decoration: underline;
+}
+
+p#sectiondescriptionparagraph a:visited  {
+    color: black;
+    text-decoration: none;
+}
+
+#colophon  {
+    background-color: black;
+    max-width: 960px;
+    height: 80px;
+    margin: auto;
+}
+
+@media screen and (min-width: 801px)"  {
+
+aside#secondary  {
+    background-color: #C8D6E5;
+	width: 540px;
+    margin-right: 139px;
+	border-radius: 25px;
+    box-sizing: border-box;
+    color: #000000;
+    right: 0;
+    position: relative;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 800px)"  {
+
+aside#secondary.widget-area {
+	background-color: #C8D6E5;
+    width: 100%;
+}
+nav.navigation.post-navigation {
+    FONT-VARIANT: JIS78;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    margin-right: 0;
+    background-color: #8395a7;
+    border-style: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+}
+
+aside#secondary a  {
+	text-decoration: none;
+	color: black;
+}
+
+aside#secondary a:hover  {
+	text-decoration: underline;
+}
+
+aside#secondary a:visited  {
+	text-decoration: none;
+	color: black;
+}
+
+aside#secondary a:active  {
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and (max-width: 800px)  {
+	nav.navigation.post-navigation {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    /* width: 540px; */
+    margin-right: 0;
+    /* margin-left: 139px; */
+    background-color: #8395a7;
+    border-style: none;
+    border-radius: 20px;
+}
+.comment-respond {
+	display: block;
+}
+form#commentform textarea {
+background-color: #E6F2FF;
+    padding: 10px;
+    border-style: none;
+    border-radius: 15px;
+    width: 100%;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+}
+
+@media screen and (min-width: 801px)  {
+nav.navigation.post-navigation {
+    color: black;
+    font-size: 24px;
+	font-weight: bold;
+    width: 540px;
+	margin-right: 0;
+	margin-left: 139px;
+    background-color: #8395a7;
+    border-style: none;
+    border-radius: 20px;
+}
+.comment-respond {
+    width: 540px;
+    margin-right: 0;
+    margin-left: 139px;
+}
+form#commentform textarea {
+    background-color: #E6F2FF;
+    padding: 10px;
+    border-style: none;
+    border-radius: 15px;
+    width: 540px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+}
+nav.navigation.post-navigation a  {
+	text-decoration: none;
+	color: white;
+}
+
+nav.navigation.post-navigation a:hover  {
+	text-decoration: underline;
+	color: white;
+}
+nav.navigation.post-navigation a:visited  {
+	text-decoration: none;
+	color: white;
+}
+
+a.url.fn.n {
+	color: #2e86de; 
+}
+
+section#meta-2  {
+	display: inline;
+}
+
+section#meta-2 ul  {
+	background-color: #E6F2FF;
+	border-style: none;
+	border-radius: 15px;
+	text-align: center;
+	padding-left: 0px
+}
+
+section#meta-2 li  {
+	display: inline;
+	text-transform: uppercase;
+	padding-right: 18px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+section#meta-2 li:last-child  {
+	padding-right: 0;
+}
+
+
+section#meta-2 h2  {
+	display: none;
+}
+
+form#commentform {
+    padding-bottom: 60px;
+}
+
+
+
+@media screen and (max-width: 800px)  {
+input[type="search"].search-field {
+	background-color: #E6F2FF;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 15px;
+	width: 100%;
+	font-size: 20px;
+	font-family: Nunito Sans;
+	font-weight: bold;
+	padding-left: 16px;
+}
+
+input[type="search"].search-field:focus {
+	outline: none;
+
+}
+
+input[type="submit"].search-submit {
+	background-color: #10ac84;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 15px;
+	width: 130px;
+	text-transform: lowercase;
+	font-size: 20px;
+	font-family: Nunito Sans;
+	font-weight: bold;
+	color: white;
+	float: right;
+}
+
+input#submit.submit {
+    background-color: #10ac84;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+    width: 160px;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+
+ }
+}
+
+@media screen and (min-width: 801px)  {
+input[type="search"].search-field {
+	background-color: #E6F2FF;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 15px;
+	width: 350px;
+	font-size: 20px;
+	font-family: Nunito Sans;
+	font-weight: bold;
+	padding-left: 16px;
+}
+
+input[type="search"].search-field:focus {
+	outline: none;
+
+}
+
+input[type="submit"].search-submit {
+	background-color: #10ac84;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 15px;
+	width: 130px;
+	text-transform: lowercase;
+	font-size: 20px;
+	font-family: Nunito Sans;
+	font-weight: bold;
+	color: white;
+	margin: auto;
+	margin-left: 10px;
+}
+
+input#submit.submit {
+    background-color: #10ac84;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+    width: 160px;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+
+}
+}
+
+
+input#submit.submit:hover {
+	background-color: #ff9f43;
+
+}
+
+input[type="submit"].search-submit:hover {
+	background-color: #ff9f43;
+
+}
+
+    input:focus, textarea:focus, select:focus{
+        outline: none
