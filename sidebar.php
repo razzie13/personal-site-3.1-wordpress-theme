@@ -1,3 +1,4 @@
+<!-- /sidebar.php -->
 <?php
 /**
  * The sidebar containing the main widget area
@@ -18,3 +19,5 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 </section>
 
 <script>document.getElementById('h1sectionheader').innerText = <?php bloginfo( ‘name’ ); ?></script>
+
+<!-- /sidebar.php -->

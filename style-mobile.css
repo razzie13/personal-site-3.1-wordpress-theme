@@ -14,8 +14,10 @@ body {
   background-color: white;
   font-family: "Nunito Sans";
   overflow-x: hidden;
-background: #C8D6E5;
-
+background: #FF6B6B;
+}
+#page .skip-link  {
+  display: none;
 }
 
 main {

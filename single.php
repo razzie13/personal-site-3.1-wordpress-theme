@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The template for displaying all single posts
@@ -9,14 +10,14 @@
 
 get_header();
 ?>
-
+	<!-- single.php -->
 	<main id="primary" class="site-main">
 		
 		<!--<div class="bannergraphic">
 			<img src="../images/bg202-edit.jpg">
 		</div>-->
 		
-		<!-- BEGIN SITE HTML AND CSS  -- single.php -->
+		<!-- BEGIN SITE HTML AND CSS (single.php) -->
 		
 		<div id="bannergraphic" class="bannergraphic">
             <div id="sectionheader" class="sectionheader">
@@ -30,7 +31,7 @@ get_header();
     
         <section id="sectiondata">
 			
-		<!-- END SITE HTML AND CSS (CONTINUES BELOW) -->
+		<!-- END SITE HTML AND CSS (single.php CONTINUES BELOW) -->
 
 
 		<?php
@@ -61,6 +62,7 @@ get_header();
 		<?php get_sidebar(); ?>
 		
 	</main><!-- #main -->
+	<!-- /single.php -->
 
 <?php
 get_footer();
