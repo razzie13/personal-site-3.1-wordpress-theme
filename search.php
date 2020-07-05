@@ -16,7 +16,7 @@ get_header();
 		
 		<div id="bannergraphic" class="bannergraphic">
             <div id="sectionheader" class="sectionheader">
-				<h1 class="h1sectionheader"><?php bloginfo( ‘name’ ); ?></h1>
+				<h1 class="h1sectionheader"><a href="https://gregrasmussen.com/projects"><?php bloginfo( ‘name’ ); ?></a></h1>
             </div>
         </div>
     
@@ -70,13 +70,18 @@ get_header();
 
 		endif;
 		?>
+
+	
 			
 	</div>
-	<div class="sectiondata-circle"><i class="fas fa-pencil-alt"></i></div></div>
+
+	<?php get_sidebar(); ?>
+	
+	<div class="sectiondata-circle"><i class="fas fa-code"></i></div></div>
 
 	</main><!-- #main -->
 			
-			<?php get_sidebar(); ?>
+			
 
 <?php
 get_footer();

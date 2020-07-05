@@ -1258,14 +1258,18 @@ nav {
   height: 80px;
 }
 
-aside#secondary {
+aside#secondary:not(#meta-2) {
     padding: 34px 0;
-    margin-left: 139px;
+    margin-left: 278px;
     padding-top: 0;
     padding-bottom: 4px;
+}
+
+aside #secondary #meta-2  {
+  display: none;
+}
 
 #secondary-widget-area  {
-	background-color: #C8D6E5;
 	max-width: 960px;
 	margin-left: 139px;
 	margin-right: 139px;

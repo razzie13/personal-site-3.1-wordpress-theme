@@ -66,6 +66,26 @@ a.screen-reader-shortcut  {
     color: black;
 }
 
+.h1sectionheader a  {
+    color: white;
+    text-decoration: none;
+}
+
+.h1sectionheader a:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+.h1sectionheader a:hover  {
+    color: white;
+    text-decoration: none;
+}
+
+.h1sectionheader a:active  {
+    color: white;
+    text-decoration: none;
+}
+
 .entry-header h2  {
     color: black;
 }
@@ -204,21 +224,36 @@ p#sectiondescriptionparagraph a:visited  {
     margin: auto;
 }
 
-@media screen and (min-width: 801px)"  {
+@media screen and (min-width: 801px) {
 
 aside#secondary  {
-    background-color: #C8D6E5;
 	width: 540px;
-    margin-right: 139px;
 	border-radius: 25px;
     box-sizing: border-box;
     color: #000000;
     right: 0;
     position: relative;
+    }
+
+aside#secondary section  {
+    background-color: #E6F2FF;
+    width: 540px;
+    border-radius: 25px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: #000000;
+    right: 0;
+    padding: 2px 20px;
+    position: relative;
+
+    
+    margin-bottom: 40px;
     margin-left: auto;
+    margin-right: 0;
+}
 }
 
-@media screen and (max-width: 800px)"  {
+@media screen and (max-width: 800px)  {
 
 aside#secondary.widget-area {
 	background-color: #C8D6E5;
@@ -297,16 +332,15 @@ nav.navigation.post-navigation {
     border-radius: 20px;
 }
 .comment-respond {
-    width: 540px;
+    width: 100%;
     margin-right: 0;
-    margin-left: 139px;
 }
 form#commentform textarea {
-    background-color: #E6F2FF;
+    background-color: white;
     padding: 10px;
-    border-style: none;
+    border-style: solid;
     border-radius: 15px;
-    width: 540px;
+    width: 100%;
     margin-right: 0px;
     box-sizing: border-box;
 }
@@ -431,18 +465,19 @@ input[type="search"].search-field:focus {
 }
 
 input[type="submit"].search-submit {
-	background-color: #10ac84;
-	border-style: solid;
-	border-color: transparent;
-	border-radius: 15px;
-	width: 130px;
-	text-transform: lowercase;
-	font-size: 20px;
-	font-family: Nunito Sans;
-	font-weight: bold;
-	color: white;
-	margin: auto;
-	margin-left: 10px;
+    background-color: #10ac84;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0 15px 15px 0;
+    width: 150px;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    float: right;
+    margin-right: -17px;
 }
 
 input#submit.submit {

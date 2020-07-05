@@ -20,7 +20,7 @@ get_header();
 		
 		<div id="bannergraphic" class="bannergraphic">
             <div id="sectionheader" class="sectionheader">
-				<h1 class="h1sectionheader"><?php bloginfo( ‘name’ ); ?></h1>
+				<h1 class="h1sectionheader"><a href="https://gregrasmussen.com/projects"><?php bloginfo( ‘name’ ); ?></a></h1>
             </div>
         </div>
     

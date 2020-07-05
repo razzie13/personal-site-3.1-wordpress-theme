@@ -11,6 +11,7 @@
  // ADVANCED CUSTOM FIELDS
  $project_image = get_field('project_image');
  $project_link	= get_field('project_link');
+ $tech_icon	= get_field('tech_icon');
  $github_repository_link	= get_field('github_repository_link');
 ?>
 
@@ -80,6 +81,10 @@
 	
 	</div>
 	<!-- FA ICON -- inside content.php -->
+	
 	<div class="sectiondata-circle"><i class="fas fa-code"></i></div></div>
+	
+	<!-- new 
+	<div class="sectiondata-circle"><?php echo $tech_icon; ?></div></div>-->
 	<!-- /FA ICON -->
 <!-- /content.php -->
