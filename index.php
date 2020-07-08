@@ -16,20 +16,19 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-		
-		<!--<div class="bannergraphic">
-			<img src="../images/bg202-edit.jpg">
-		</div>-->
-		
-		<!-- BEGIN SITE HTML AND CSS  -- index.php -->
+
+		<main id="primary" class="site-main">
+
+		<!-- BEGIN SITE HTML AND CSS  -- template-parts contact-page.php -->
 		
 		<div id="bannergraphic" class="bannergraphic">
             <div id="sectionheader" class="sectionheader">
-				<h1 class="h1sectionheader"><a href="https://gregrasmussen.com/projects"><?php bloginfo( ‘name’ ); ?></a></h1>
+				<h1 class="h1sectionheader"><a href="https://gregrasmussen.com/projects"><?php bloginfo( "name" ); ?></a></h1>
+				
             </div>
         </div>
-    
-        <section id="sectiondescription">
+
+		<section id="sectiondescription">
 			<p id="sectiondescriptionparagraph">Here is a list of my Web Dev projects, starting with the ones most recently completed. Powered by <a href="https://wordpress.org/">WordPress</a></p>
         </section>
     

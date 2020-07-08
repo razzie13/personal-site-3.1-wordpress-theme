@@ -28,7 +28,7 @@ get_header();
 		
 		<div id="bannergraphic" class="bannergraphic">
             <div id="sectionheader" class="sectionheader">
-				<h1 class="h1sectionheader"><?php bloginfo( ‘name’ ); ?></h1>
+				<h1 class="h1sectionheader"><?php bloginfo( "name" ); ?></h1>
             </div>
         </div>
     

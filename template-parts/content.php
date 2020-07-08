@@ -84,7 +84,5 @@
 	
 	<div class="sectiondata-circle"><i class="fas fa-code"></i></div></div>
 	
-	<!-- new 
-	<div class="sectiondata-circle"><?php echo $tech_icon; ?></div></div>-->
-	<!-- /FA ICON -->
+
 <!-- /content.php -->
