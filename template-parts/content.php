@@ -68,9 +68,9 @@
 			)
 		);
 		?>
-		<p>Project Link: <a href=“<?php echo $project_link; ?>“><?php echo $project_link; ?></a></p>
+		<p><a href=“<?php echo $project_link; ?>“>Visit This Project</a></p>
 
-		<p>GitHub Repository Link for this Project: <a href=“<?php echo $github_repository_link; ?>“><?php echo $github_repository_link; ?></a></p>
+		<p><a href=“<?php echo $github_repository_link; ?>“>GitHub Repository Link for this Project</a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
@@ -82,7 +82,9 @@
 	</div>
 	<!-- FA ICON -- inside content.php -->
 	
-	<div class="sectiondata-circle"><i class="fas fa-code"></i></div></div>
+	<!--<div class="sectiondata-circle"><i class="fas fa-code"></i></div></div>-->
+
+	<div class="sectiondata-circle"><?php echo $tech_icon; ?></div></div>
 	
 
 <!-- /content.php -->
