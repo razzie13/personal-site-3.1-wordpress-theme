@@ -68,9 +68,9 @@
 			)
 		);
 		?>
-		<p><a href=“<?php echo $project_link; ?>“>Visit This Project</a></p>
+		<p><a href=<?php echo $project_link; ?>>Visit This Project</a></p>
 
-		<p><a href=“<?php echo $github_repository_link; ?>“>GitHub Repository Link for this Project</a></p>
+		<p><a href=<?php echo $github_repository_link; ?>>GitHub Repository Link for this Project</a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
