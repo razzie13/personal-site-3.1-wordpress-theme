@@ -12,6 +12,7 @@
  $project_image = get_field('project_image');
  $project_link	= get_field('project_link');
  $tech_icon	= get_field('tech_icon');
+ $responsive_icon = get_field('responsive_icons');
  $github_repository_link	= get_field('github_repository_link');
 ?>
 
@@ -36,7 +37,9 @@
 				travelblog_posted_on();
 				travelblog_posted_by();
 				?>
-			</div><!-- .entry-meta -->
+				<div id="responsive-icons"><small>Optimized For: <span><?php the_field('responsive_icon') ?></span></small></div>
+			</div>
+			<!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
